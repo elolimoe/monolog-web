@@ -10,10 +10,10 @@ namespace huijimuhe\Support;
 
 class Easemob {
 
-    private $client_id = "[YOURS]";//TODO [YOURS]
-    private $client_secret = "[YOURS]";//TODO [YOURS]
-    private $org_name = "[YOURS]";//TODO [YOURS]
-    private $app_name = "[YOURS]";//TODO [YOURS]
+    private $client_id = "YXA6UnQ00HpxEeeIxJXI5usmtQ";//TODO [YOURS]
+    private $client_secret = "YXA6vkWD3U_GOF8UiqLz-SlJVOtDj1I";//TODO [YOURS]
+    private $org_name = "a@eloli.moe";//TODO [YOURS]
+    private $app_name = "dubai";//TODO [YOURS]
     private $url;
 
     public function __construct() {
