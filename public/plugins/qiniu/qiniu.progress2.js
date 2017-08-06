@@ -5,7 +5,7 @@ function uploadImg(id, token) {
         browse_button: 'pick_' + id, //上传选择的点选按钮，**必需**
         uptoken_url: token, //Ajax请求upToken的Url，**强烈建议设置**（服务端提供）
         unique_names: true,
-        domain: '[YOURS]', //bucket 域名，下载资源时用到，**必需**
+        domain: 'ou94fvxte.bkt.clouddn.com', //bucket 域名，下载资源时用到，**必需**
         container: id + '-container', //上传区域DOM ID，默认是browser_button的父元素，
         max_file_size: '1mb', //最大文件体积限制
         flash_swf_url: 'js/plupload/Moxie.swf', //" {{asset('js/plupload/Moxie.swf')}}", //引入flash,相对路径
