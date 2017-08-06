@@ -46,7 +46,16 @@ return array(
             'prefix' => '',
         ), 
           'mysql' => array(
-              [YOURS]//TODO [YOURS]
+            'driver'    => 'mysql',
+            'host'      => 'localhost',
+            'database'  => 'dubai',
+            'username'  => 'root',
+            'password'  => 'root',
+            'charset'   => 'utf8',
+            'collation' => 'utf8_unicode_ci',
+            'prefix'    => '',
+            'strict'    => false,
+            'engine'    => null,
         ), 
         'mongodb' => array(
             [YOURS]//TODO [YOURS]
