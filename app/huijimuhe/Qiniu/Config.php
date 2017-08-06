@@ -16,10 +16,10 @@ final class Config
     const UPYD_HOST = 'http://upyd.qiniu.com';
     const UPBACKUP_HOST = 'http://upload.qiniu.com';
 
-    const APP_KEY='[YOURS]';//TODO [YOURS]
-    const APP_SECRET='[YOURS]';//TODO [YOURS]
-    const BUCKET_NAME='[YOURS]';//TODO [YOURS]
-    const APP_URL='[YOURS]';//TODO [YOURS]
+    const APP_KEY='SeaJzg1ZktIIhvD0zWYTC9DuywUIyJKeQRUJBXa-';//TODO [YOURS]
+    const APP_SECRET='d4TxhLOebttpauXCfUedyIP01Mr_USdXo3uw0cwW';//TODO [YOURS]
+    const BUCKET_NAME='dubai';//TODO [YOURS]
+    const APP_URL='ou94fvxte.bkt.clouddn.com';//TODO [YOURS]
     
     const BLOCK_SIZE = 4194304; # 4*1024*1024
 
